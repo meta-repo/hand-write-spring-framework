@@ -7,6 +7,8 @@ package net.zhongfu.springframework;
  * <p>公司信息: 中孚安全技术有限公司 产品研发体系/中央能力部/大数据平台能力部</p>
  *
  * @author <a href="mail to: lizunqi@zhongfu.net" rel="nofollow">李遵奇</a>
+ * @author fuzhengwei
+ * @author DerekYRC
  * @version v1.0
  * @create [1][2022-11-22] [李遵奇][创建描述:定义 Bean]
  */
