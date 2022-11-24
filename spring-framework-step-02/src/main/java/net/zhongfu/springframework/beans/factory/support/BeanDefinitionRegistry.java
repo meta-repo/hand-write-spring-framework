@@ -1,8 +1,6 @@
 package net.zhongfu.springframework.beans.factory.support;
 
 import net.zhongfu.springframework.beans.factory.config.BeanDefinition;
-import org.springframework.context.annotation.Bean;
-
 /**
  * 模块名称: 徒手实现 Spring 框架
  * <p>接口描述: Bean 定义注册接口</p>

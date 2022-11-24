@@ -3,7 +3,7 @@ package net.zhongfu.springframework.test;
 import net.zhongfu.springframework.beans.factory.config.BeanDefinition;
 import net.zhongfu.springframework.beans.factory.support.DefaultListableBeanFactory;
 import net.zhongfu.springframework.test.bean.UserService;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 /**
  * 测试类
