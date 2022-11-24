@@ -2,7 +2,7 @@
 
 基于[小傅哥](https://github.com/fuzhengwei/book-small-spring)开源 Spring 源码，已自己的理解丰富注释，以此加深自己对 Spring 核心原理理解及应用，同时开源出来方便大家一起学习、进步。**原创不易，码字不易**，还希望大家多多支持。若文中有错误或者遗漏之处，还望指出，共同进步！
 
-官方网站：[https://spring.io/](https://spring.io/)
+**官方网站：** [https://spring.io/](https://spring.io/)
 
 **代码规范：** 高内聚，低耦合的设计理念。
 
