@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/hand-write-spring-framework.iml" filepath="$PROJECT_DIR$/.idea/hand-write-spring-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-framework-step-01/spring-framework-step-01.iml" filepath="$PROJECT_DIR$/spring-framework-step-01/spring-framework-step-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-framework-step-02/spring-framework-step-02.iml" filepath="$PROJECT_DIR$/spring-framework-step-02/spring-framework-step-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-framework-step-03/spring-framework-step-03.iml" filepath="$PROJECT_DIR$/spring-framework-step-03/spring-framework-step-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-framework-step-04/spring-framework-step-04.iml" filepath="$PROJECT_DIR$/spring-framework-step-04/spring-framework-step-04.iml" />
+    </modules>
+  </component>
+</project>
