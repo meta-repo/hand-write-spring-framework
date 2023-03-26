@@ -1,10 +1,9 @@
 package net.zhongfu.springframework.beans.factory.support;
 
+import net.sf.cglib.proxy.Enhancer;
+import net.sf.cglib.proxy.NoOp;
 import net.zhongfu.springframework.beans.BeansException;
 import net.zhongfu.springframework.beans.factory.config.BeanDefinition;
-import org.springframework.cglib.proxy.Enhancer;
-import org.springframework.cglib.proxy.NoOp;
-
 import java.lang.reflect.Constructor;
 
 /**

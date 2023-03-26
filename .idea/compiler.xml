@@ -7,14 +7,50 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-framework-step-03" />
+        <module name="spring-framework-step-14" />
         <module name="spring-framework-step-02" />
+        <module name="spring-framework-step-13" />
+        <module name="spring-framework-step-05" />
+        <module name="spring-framework-step-16" />
+        <module name="spring-framework-step-04" />
+        <module name="spring-framework-step-15" />
+        <module name="spring-framework-step-10" />
+        <module name="spring-framework-step-21" />
+        <module name="spring-framework-step-20" />
         <module name="spring-framework-step-01" />
+        <module name="spring-framework-step-12" />
+        <module name="spring-framework-step-11" />
+        <module name="spring-framework-step-07" />
+        <module name="spring-framework-step-18" />
+        <module name="spring-framework-step-06" />
+        <module name="spring-framework-step-17" />
+        <module name="spring-framework-step-09" />
+        <module name="spring-framework-step-08" />
+        <module name="spring-framework-step-19" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-framework-step-01" target="1.8" />
       <module name="spring-framework-step-02" target="1.8" />
       <module name="spring-framework-step-03" target="1.8" />
+      <module name="spring-framework-step-04" target="1.8" />
+      <module name="spring-framework-step-05" target="1.8" />
+      <module name="spring-framework-step-06" target="1.8" />
+      <module name="spring-framework-step-07" target="1.8" />
+      <module name="spring-framework-step-08" target="1.8" />
+      <module name="spring-framework-step-09" target="1.8" />
+      <module name="spring-framework-step-10" target="1.8" />
+      <module name="spring-framework-step-11" target="1.8" />
+      <module name="spring-framework-step-12" target="1.8" />
+      <module name="spring-framework-step-13" target="1.8" />
+      <module name="spring-framework-step-14" target="1.8" />
+      <module name="spring-framework-step-15" target="1.8" />
+      <module name="spring-framework-step-16" target="1.8" />
+      <module name="spring-framework-step-17" target="1.8" />
+      <module name="spring-framework-step-18" target="1.8" />
+      <module name="spring-framework-step-19" target="1.8" />
+      <module name="spring-framework-step-20" target="1.8" />
+      <module name="spring-framework-step-21" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean id="userService" class="net.zhongfu.springframework.test.bean.UserService"/>
+    <!--默认代理-->
+    <bean class="net.zhongfu.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"/>
+
+    <!--环绕拦截器-->
+    <bean id="beforeAdvice" class="net.zhongfu.springframework.test.bean.UserServiceBeforeAdvice"/>
+    <!--拦截器-->
+    <bean id="methodInterceptor" class="net.zhongfu.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor">
+        <property name="advice" ref="beforeAdvice"/>
+    </bean>
+    <bean id="pointcutAdvisor" class="net.zhongfu.springframework.aop.aspectj.AspectJExpressionPointcutAdvisor">
+        <property name="expression" value="execution(* net.zhongfu.springframework.test.bean.IUserService.*(..))"/>
+        <!--拦截器-->
+        <property name="advice" ref="methodInterceptor"/>
+    </bean>
+
+</beans>

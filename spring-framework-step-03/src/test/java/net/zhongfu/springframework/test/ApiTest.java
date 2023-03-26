@@ -1,11 +1,12 @@
 package net.zhongfu.springframework.test;
 
+import net.sf.cglib.proxy.Enhancer;
+import net.sf.cglib.proxy.NoOp;
 import net.zhongfu.springframework.beans.factory.config.BeanDefinition;
 import net.zhongfu.springframework.beans.factory.support.DefaultListableBeanFactory;
 import net.zhongfu.springframework.test.bean.UserService;
-import org.junit.jupiter.api.Test;
-import org.springframework.cglib.proxy.Enhancer;
-import org.springframework.cglib.proxy.NoOp;
+
+import org.junit.Test;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
